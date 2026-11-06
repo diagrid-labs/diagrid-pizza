@@ -48,7 +48,7 @@ export function Home() {
             : "bg-[url('/header-initial.jpg')]  bg-right-top bg-no-repeat py-4"
         }
       >
-        <img src="/logo.jpg" alt="Catalyst Pizza" />
+        <img src="/logo.jpg" alt="Diagrid Pizza" />
         {orderSent ? (
           <OrderStatusSection orderDetails={orderDetails} reset={handleReset} />
         ) : (
